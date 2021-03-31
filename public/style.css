@@ -32,6 +32,9 @@ body{
   margin-top: -37%;
   margin-left: -24%;
   background-color: rgb(181,164,156);
+
+  border: 2px solid white;
+  border-radius: 30px;
 }
 #two{
 
@@ -57,6 +60,9 @@ body{
   left: 30px;
   background-color: rgb(181,164,156);
   height: 160px;
+  /* background-color: rgba(255, 255, 255, .5); */
+  border: 2px solid white;
+  border-radius: 30px;
 }
 img{
   height: 200px;

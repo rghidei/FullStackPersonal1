@@ -27,7 +27,7 @@ module.exports = function(app, passport, db) {
 // message board routes ===============================================================
 
     app.post('/messages', (req, res) => {
-      db.collection('messages').insertMany({name: req.body.name, order: req.body.order, banana: req.body.banana, strawberry: req.body.strawberry, mango: req.body.mango, size: req.body.size}, (err, result) => {
+      db.collection('messages').save({name: req.body.name, order: req.body.order, banana: req.body.banana, strawberry: req.body.strawberry, mango: req.body.mango, size: req.body.size}, (err, result) => {
         if (err) return console.log(err)
         console.log('saved to database')
         res.redirect('/profile')
