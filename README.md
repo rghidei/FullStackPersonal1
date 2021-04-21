@@ -5,7 +5,7 @@
 
 [Checkout my portfolio to see live app](https://rodasghidei.netlify.app/)
 
-![Kitty Cafe](public/shot3.png)
+![Kitty Cafe](public/screenshot.png)
 
 ## How It's Made:
 
