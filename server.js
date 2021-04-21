@@ -16,7 +16,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
 var session      = require('express-session');
 
-var configDB = require('./config/database.js');
+// var configDB = require('./config/database.js');
 const DB_NAME = process.env.DB_NAME
 const DB_URL =process.env.DB_URL+`/${DB_NAME}`
 
